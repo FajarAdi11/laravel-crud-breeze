@@ -73,7 +73,7 @@
                                 <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                                     <img class="w-12 h-12 mx-auto"
                                          src="{{$mahasiswa->photo ? asset('storage/' . $mahasiswa->photo) : asset('assets/img/no-image.png')}}"
-                                         alt="photo_dosen">
+                                         alt="photo_mahasiswa">
                                 </td>
                                 <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                                     {{ $mahasiswa->nim }}
